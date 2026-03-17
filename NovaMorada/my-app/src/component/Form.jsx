@@ -27,7 +27,7 @@ import { useRef } from "react";
         };
 
     return(
-        
+   <>
 <section id="contato" className="py-20 bg-gray-100">
   <div className="max-w-3xl mx-auto px-6">
 
@@ -127,6 +127,7 @@ import { useRef } from "react";
 
   </div>
 </section>
+   </>     
     )
   }
 

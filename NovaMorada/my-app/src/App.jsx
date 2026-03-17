@@ -1,20 +1,31 @@
-import Footer from './component/Footer';
+import Main from './component/Main';
+import Depoimentos from './component/Depoimentos';
 import Form from './component/Form';
+import Footer from './component/Footer';
 import './output.css'
+import Casas from './component/Casas';
+import Plantas from './component/Plantas';
+
 
 function App() {
  
 
   return (
     <>
-    <div className="text-gray-900">
-     <h1>Nova Morada</h1>
-     <Form></Form>
-     <Footer></Footer>
 
-    </div>
+    <>
+      <Main />
+      <Casas />
+      <Plantas />
+      <Depoimentos />
+      <Form />
+      <Footer />
     </>
-  )
+   
+
+    
+    </>
+  ) 
 }
 
 export default App;
